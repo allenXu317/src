@@ -7,6 +7,7 @@ import (
 	"os"
 )
 
+//书本例程
 func readTest() {
 	counts := make(map[string]int)      //键值对存放重复行  键为字符串，值为整型
 	input := bufio.NewScanner(os.Stdin) //声明一个新的Scanner类型
